@@ -1,3 +1,1 @@
-### Css advanced project 
-
-this project follows the HTML advanced project to add in css and styling to the site being developed.
+![ADVANCED CSS](https://th.bing.com/th/id/OIP.Z7oz-UE96cn06LU5Uid04gHaEK?rs=1&pid=ImgDetMain)
