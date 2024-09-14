@@ -32,14 +32,18 @@
   /* Add Flexbox layout to the content container */
   .content {
     display: flex;
-    flex-direction: column; /* Stack article and aside vertically */
   }
 
-  /* Adjust article and aside for mobile */
-  article,
-  aside {
+  /* Ensure article takes 2/3 of the width */
+  article {
+    flex: 2; /* Takes 2 parts of the available space */
     padding: 20px;
-    width: 100%; /* Ensure full width within the container */
+  }
+
+  /* Ensure aside takes 1/3 of the width */
+  aside {
+    flex: 1; /* Takes 1 part of the available space */
+    padding: 20px;
   }
 
   /* Ensure images scale properly */
