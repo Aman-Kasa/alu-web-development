@@ -29,10 +29,17 @@
     text-align: center;
   }
 
+  /* Add Flexbox layout to the content container */
+  .content {
+    display: flex;
+    flex-direction: column; /* Stack article and aside vertically */
+  }
+
   /* Adjust article and aside for mobile */
   article,
   aside {
     padding: 20px;
+    width: 100%; /* Ensure full width within the container */
   }
 
   /* Ensure images scale properly */
